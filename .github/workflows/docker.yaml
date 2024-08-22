@@ -59,7 +59,7 @@ jobs:
       run: |
         echo "docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY"
         # docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
-        docker login -u shixibao -p of1Aepu4 $ALIYUN_REGISTRY https://harbor.yikuaigao.com
+        docker login -u shixibao -p of1Aepu4 https://harbor.yikuaigao.com
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
