@@ -1,1 +1,1 @@
-ghcr.io/zenika/alpine-chrome:with-node
+alpine-chrome:with-node
