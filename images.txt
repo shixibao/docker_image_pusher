@@ -1,4 +1,1 @@
-nginx
-busybox
-apache/shardingsphere-proxy:5.1.2
-
+ghcr.io/zenika/alpine-chrome:with-node
